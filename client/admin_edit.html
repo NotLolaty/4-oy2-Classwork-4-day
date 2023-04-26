@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Edit Panel</title>
+  </head>
+  <body>
+    <div class="toast"></div>
+    <fieldset>
+      <legend>Add product</legend>
+      <form class="addProductForm" method="post">
+        <input
+          class="addProductInput inputz"
+          name="title"
+          type="text"
+          placeholder="Enter the title..."
+        />
+        <br />
+        <input
+          class="addProductInput inputz"
+          name="price"
+          type="number"
+          placeholder="Enter the price..."
+        />
+        <br />
+        <input
+          class="addProductInput inputz"
+          name="img"
+          type="text"
+          placeholder="Enter the url of img..."
+        />
+        <br />
+        <button type="submit">Add the product...</button>
+      </form>
+    </fieldset>
+    <script src="./js/admin_edit.js"></script>
+  </body>
+</html>
